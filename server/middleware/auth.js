@@ -2,6 +2,18 @@ const dotenv = require("dotenv");
 dotenv.config();
 const jwt = require("jsonwebtoken");
 
+// const fs = require("fs");
+// const admin = require("firebase-admin");
+
+// const credentials = JSON.parse(
+//   fs.readFileSync("./credentials.json", "utf8")
+// )
+
+// admin.initializeApp({
+//   credential: admin.credential.cert(credentials),
+// });
+
+
 function auth(req, res, next) {
   try {
     const token = req.headers.authorization;

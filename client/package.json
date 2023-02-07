@@ -23,6 +23,7 @@
     "electron-is-dev": "^2.0.0",
     "eslint-plugin-flowtype": "5.2.0",
     "file-saver": "^2.0.5",
+    "firebase": "^9.16.0",
     "html-react-parser": "^1.2.7",
     "jquery": "3.5.1",
     "jspdf": "^2.5.1",
